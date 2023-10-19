@@ -3,110 +3,65 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="Desktop1 w-96 h-96 relative bg-white">
+          <div className="Rectangle1 w-96 h-96 left-[316px] top-[101px] absolute shadow justify-center items-center inline-flex">
+              <img className="Rectangle1 w-96 h-96 rounded-full" src="man-in-pool-enjoy-music.png" />
+          </div>
+        <div className="DieHard left-[630px] top-[370px] absolute text-teal-700 text-5xl font-normal font-['Inter']">Die hard Saviour</div>
+        <div className="Passion left-[122px] top-[695px] absolute text-green-900 text-5xl font-normal font-['Jim Nightshade']">Passion</div>
+        <div className="Rebellious left-[-250px] top-[520px] absolute text-red-600 text-5xl font-normal font-['Homemade Apple']">Rebellious</div>
+        <div className="Seductive left-[200px] top-[36px] absolute text-lime-500 text-5xl font-normal font-['Homemade Apple']">Seductive</div>
+        <div className="Magician left-[-150px] top-[50px] absolute text-fuchsia-600 text-5xl font-normal font-['Irish Grover']">Magician</div>
+        <div className="Rectangle2 w-96 h-96 left-[-316px] top-[120px] absolute shadow justify-center items-center inline-flex">
+              <img className="Rectangle2 w-96 h-96 rounded-full" src="Rebellious-man.png" />
+          </div>
+        <div className="Rectangle3 w-96 h-96 left-[416px] top-[820px] absolute shadow justify-center items-center inline-flex">
+              <img className="Rectangle3 w-96 h-96 rounded-full" src="passioniate-women.png" />
+          </div>
+          <div className="Rectangle4 w-80 h-80 left-[316px] top-[101px] absolute">
+              <div className="Rectangle4 w-96 h-96 left-[-550px] top-[800px] absolute text-black-600 text-5xm font-normal font-['Irish Grover']">
+                  We are alchemist & rebels. We build great products that will make your moments more special, more phenomenal and elevate your moment experience beyond horizons.
+                  A sensible touch is more phenomenal experience, that's your experience make our products valuable.  
+              </div>
+          </div>
+          <div className="Rectangle5 w-96 h-96 left-[-400px] top-[1400px] absolute shadow justify-center items-center inline-flex">
+              <img className="Rectangle5 w-96 h-96 rounded-full" src="wisdomenigma-inc.jpg" />
+              <div className="Rectangle5 w-96 h-96 left-[450px] top-[200px] absolute text-black-600 text-5xm font-normal font-['Irish Grover']">
+                  Wisdomenigma Inc &#169; 2023
+              </div>
+          </div>
+          <div className="Rectangle6 w-120 h-120 left-[-350px] top-[2000px] absolute">
+              <img className="Rectangle6 w-90 h-90 " src="song_search.png" />
+              <div className="Rectangle6 w-96 h-96 left-[450px] top-[200px] absolute text-black-600 text-5xm font-normal font-['Irish Grover']">
+                  <ul>
+                    <li className=' w-80 h-80 left-[450px] top-[-100px] absolute'> * Music Studio  &#127897; </li>
+                    <li className=' w-80 h-80 left-[450px] top-[-150px] absolute'> * No Music Player &#127926;  </li>
+                    <li className=' w-80 h-80 left-[450px] top-[-50px] absolute'> * Emotion Detection &#128525; </li>
+                  </ul>
+                  <div className="Read1 w-96 h-20 left-[500px] top-[1px] absolute text-teal-600" >
+                    <a  href='https://github.com/WisdomEnigma/Roombot' title='visit the site'> Read more </a>
+                  </div>
+              </div>
+          </div>
+          <div className="Rectangle7 w-120 h-120 left-[-350px] top-[2700px] absolute">
+              <img className="Rectangle7 w-90 h-90 " src="prompt.png" />
+              <div className="Rectangle7 w-96 h-96 left-[450px] top-[200px] absolute text-black-600 text-5xm font-normal font-['Irish Grover']">
+                  <ul>
+                    <li className=' w-80 h-80 left-[450px] top-[-100px] absolute'> * 2x time Fast  &#9202; </li>
+                    <li className=' w-80 h-80 left-[450px] top-[-150px] absolute'> * Easy to interact &#128433;  </li>
+                    <li className=' w-80 h-80 left-[450px] top-[-50px] absolute'> * Task Efficiency 80% &#129409; </li>
+                  </ul>
+                  <div className="Read2 w-96 h-20 left-[500px] top-[1px] absolute text-teal-600" >
+                    <a  href='https://github.com/WisdomEnigma/Roombot' title='visit the site'> Read more </a>
+                  </div>
+              </div>
+          </div>
+          <div className="Rectangle8 w-120 h-120 left-[-350px] top-[3200px] absolute">
+            <div className="Rectangle8 w-96 h-96 left-[450px] top-[200px] absolute text-black-600 text-5xm font-normal font-['Irish Grover']">
+                <a className='text-teal-600'  href='https://github.com/ali2210/WizDwarf' title='furthermore'> WizDwarf </a> &
+                <a className='text-teal-600' href='https://github.com/ali2210/happysnake' title='furthermore'> HappySnake </a> elevate your productivity 
+              </div>
+          </div>
       </div>
     </main>
   )
