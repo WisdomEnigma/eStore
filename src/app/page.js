@@ -1,6 +1,13 @@
+'use client';
+
 import Image from 'next/image'
+import CircumIcon from "@klarr-agency/circum-icons-react";
+
 
 export default function Home() {
+
+  
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="Desktop1 w-96 h-96 relative bg-white">
@@ -59,10 +66,31 @@ export default function Home() {
           <div className="Rectangle8 w-120 h-120 left-[-350px] top-[3200px] absolute">
             <div className="Rectangle8 w-96 h-96 left-[450px] top-[200px] absolute text-black-600 text-5xm font-normal font-['Irish Grover']">
                 <a className='text-teal-600'  href='https://github.com/ali2210/WizDwarf' title='furthermore'> WizDwarf </a> &
-                <a className='text-teal-600' href='https://github.com/ali2210/happysnake' title='furthermore'> HappySnake </a> elevate your productivity 
+                <a className='text-teal-600' href='https://github.com/ali2210/happysnake' title='furthermore'> HappySnake </a> elevate your productivity  
               </div>
+          </div>
+          <div className="Rectangle9 w-80 h-80 left-[150px] top-[3700px] absolute"> 
+              
+              <a className='left-[40px] top-[100px] absolute' href='https://www.instagram.com/wisdomenigma' title='follow us on insta'>
+                <CircumIcon name="instagram"></CircumIcon>
+              </a>
+              <a className='left-[80px] top-[100px] absolute' href='https://www.facebook.com/WisdomEnigma' title='follow us facebook community'>
+                <CircumIcon name="facebook"></CircumIcon>
+              </a>
+              <a className='left-[120px] top-[100px] absolute' href='https://www.instagram.com/wisdomenigma' title='follow us on insta'>
+                <CircumIcon name="twitter"></CircumIcon>
+              </a>
+              <a className='left-[160px] top-[100px] absolute' href='https://www.linkedin.com/company/wisdom-enigma' title='follow us on linkedin'>
+                <CircumIcon name="linkedin"></CircumIcon>
+              </a>
+              <a className='left-[200px] top-[100px] absolute' href='https://studio.youtube.com/channel/UCziNXOl_swLu-SXWWmjFVNA' title='follow us on youtube'>
+                <CircumIcon name="youtube"></CircumIcon>
+              </a>
           </div>
       </div>
     </main>
+
+    
   )
 }
+
